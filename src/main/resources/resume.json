@@ -1,3 +1,89 @@
-{
-
-}
+[
+  {
+    "title": "Summary",
+    "text": "A software engineer working on Enterprise projects since I was 19 (for 12 years). With a high IQ of 126, I have been a fast learner and creative problem solver (I created a simple app which will generate a customized version of this resume on https://github.com/amirmv2006/amv-resume-generator). I have always finished the learning period of the companies in less than half the expected time. I get motivated by how unsolvable a problem is! The harder a problem is, the more joy it will bring when solved. I also believe one can always learn from ANYONE and love technical discussions."
+  },
+  {
+    "title": "Experience",
+    "subparts": [
+      {
+        "title": "<b>Experian, </b><i>Senior Software Engineer, </i>Jul 2017-Present",
+        "items": [
+          {
+            "text": "Improved performance in a use-case by 400%"
+          },
+          {
+            "text": "Implemented a solution to isolate feature branch build from master caused by the use of version range"
+          },
+          {
+            "text": "Created an Intellij plugin to auto-update OSGi jar files in the deploy folder "
+          }
+        ]
+      },
+      {
+        "title": "<b>DJavaFactory, </b><i>Senior Java Developer, </i>Apr 2016-Apr 2017",
+        "items": [
+          {
+            "text": "Came up with a solution to generate report criteria forms on the fly which helped us deliver the 150+ reports and their criteria forms on time"
+          },
+          {
+            "text": "Helped other developers with their design and technical problems"
+          }
+        ]
+      },
+      {
+        "title": "<b>Self Employed, </b><i>N/A, </i>Mar 2015-Mar 2016",
+        "items": [
+          {
+            "text": "Consult and train a team of 8 developers with their Billing project"
+          }
+        ]
+      },
+      {
+        "title": "<b>Infotech, </b><i>Senior Architect, </i>May 2011-Mar 2015",
+        "items": [
+          {
+            "text": "Implemented a multi-module framework to reduce implementation cost by 70%"
+          },
+          {
+            "text": "Designed and implemented a solution for final user custom querying"
+          },
+          {
+            "text": "Designed and implemented a solution for embedding GUI pages in one another"
+          },
+          {
+            "text": "Designed and implemented a solution for entity-level Authorization"
+          },
+          {
+            "text": "Designed and implemented a solution for End-User custom reports by Jasper"
+          },
+          {
+            "text": "Implemented a model-based code generator (Xtext & Xpand)"
+          }
+        ]
+      },
+      {
+        "title": "<b>ICT-CERT, </b><i>Senior Java Developer, </i>Feb 2010-May 2011, <i>Consultant and Architect, </i>Dec 2012-May 2015 (part-time)",
+        "items": [
+          {
+            "text": "Implemented a multi-module framework to reduce implementation cost by 30%"
+          },
+          {
+            "text": "Designed and implemented a solution for End-User custom reports by BIRT"
+          },
+          {
+            "text": "Train a team of 5 developers"
+          }
+        ]
+      },
+      {
+        "title": "<b>DPco, </b><i>Junior Java Developer, </i>Sep 2006-Jul 2009 (part-time), ",
+        "items": [
+          {
+            "text": "Found a design defect which saved our company thousands of dollar"
+          }
+        ]
+      }
+    ]
+  }
+]

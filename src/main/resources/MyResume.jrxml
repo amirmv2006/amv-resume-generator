@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MyResume" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e00ffa64-7a10-426b-a2f2-07c019fe24b9">
+	<style name="DefaultFont" fontName="SansSerif"/>
+	<subDataset name="ResumeParts" uuid="6cd10d15-0b86-4880-9c2c-e1164f1c4853">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="title" class="java.lang.String"/>
+	<field name="text" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="102" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="30" uuid="cb23d344-3285-4ceb-8c75-e29b342d86af"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Amir M. Vosough]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="554" height="62" uuid="265210ef-04ee-4d15-8264-0e47182a0ecd"/>
+				<textElement>
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[D-32-9 Vertex Cybersquare
+Cyberjaya, Malaysia 63000
+amirmv2006@gmail.com
+(+60) 1112392523]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<componentElement>
+				<reportElement x="0" y="0" width="555" height="119" uuid="cf648196-8c62-4d18-b65c-7d1a9ad72c7e"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ResumeParts" uuid="256e6bee-b749-47d6-9776-1a6a9a369def">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:listContents height="119" width="555"/>
+				</jr:list>
+			</componentElement>
+			<textField>
+				<reportElement style="DefaultFont" x="0" y="0" width="554" height="20" uuid="cf265166-c730-433f-9029-99c072d92367"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<bottomPen lineWidth="1.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{title}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DefaultFont" stretchType="ElementGroupHeight" x="0" y="30" width="554" height="88" uuid="64b4dd15-3b6c-43c6-973b-9cf2eebaab57"/>
+				<textElement markup="styled"/>
+				<textFieldExpression><![CDATA[$F{text}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
