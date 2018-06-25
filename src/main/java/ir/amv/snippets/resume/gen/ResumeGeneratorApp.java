@@ -30,23 +30,33 @@ import java.util.List;
 public class ResumeGeneratorApp {
 
     public static void main(String[] args) throws JRException, IOException {
-        InputStream inputStream = ResumeGeneratorApp.class.getResourceAsStream("/MyResume.jrxml");
-        JasperDesign jasperDesign = JRXmlLoader.load(inputStream);
+        JasperDesign jasperDesign = loadReport("MyResume.jrxml");
+        JasperDesign subPart = loadReport("SubPart.jrxml");
         JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
+        JasperReport subPartResume = JasperCompileManager.compileReport(subPart);
 
         ObjectMapper objectMapper = new ObjectMapper();
         List<ResumePart> parts = objectMapper.readValue(ResumeGeneratorApp.class.getResource("/resume.json"), new
                 TypeReference<List<ResumePart>>() {});
 
         JRDataSource dataSource = new JRBeanCollectionDataSource(parts);
-        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, new HashMap<String, Object>(), dataSource);
-        String destFileName = "simple.docx";
+        HashMap<String, Object> parameters = new HashMap<>();
+        parameters.put("subpartResume", subPartResume);
+        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
+        String destFileName = "simple";
+//        OutputType.PDF.export(jasperPrint, destFileName);
+        OutputType.DOCX.export(jasperPrint, destFileName);
+//        OutputType.HTML.export(jasperPrint, destFileName);
+    }
 
-        JRDocxExporter exporter = new JRDocxExporter(DefaultJasperReportsContext.getInstance());
-        exporter.setExporterInput(new SimpleExporterInput(jasperPrint));
-        exporter.setExporterOutput(new SimpleOutputStreamExporterOutput(destFileName));
-        exporter.exportReport();
+    private static JasperDesign loadReport(final String jrxmlFileName) throws JRException {
+        InputStream inputStream = ResumeGeneratorApp.class.getResourceAsStream("/" + jrxmlFileName);
+        return JRXmlLoader.load(inputStream);
+    }
 
-        Desktop.getDesktop().open(new File(destFileName));
+    public static JasperReport getItemSubReportDesign() throws JRException {
+        JasperDesign subPartItem = loadReport("SubPartItem.jrxml");
+        JasperReport subPartResume = JasperCompileManager.compileReport(subPartItem);
+        return subPartResume;
     }
 }

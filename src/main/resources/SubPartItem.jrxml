@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SubPartItem" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2d83dc1a-8af2-4eec-9fcb-d7758a16261c">
+	<subDataset name="Dataset1" uuid="a291c55c-f9ec-408f-b79c-686b0a51f542">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="text" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<componentElement>
+				<reportElement x="0" y="0" width="510" height="19" uuid="de4336a4-6b73-4654-a85a-51bc0b088c1b"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="Dataset1" uuid="91e189e8-d03c-46cd-abaa-2f8ee7175ae2">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:listContents height="19" width="510"/>
+				</jr:list>
+			</componentElement>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="20" y="0" width="490" height="19" uuid="1455cc08-bd05-41e1-905d-32329d9ce70f"/>
+				<textElement textAlignment="Justified" markup="styled"/>
+				<textFieldExpression><![CDATA[$F{text}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

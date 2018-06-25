@@ -10,13 +10,13 @@
         "title": "<b>Experian, </b><i>Senior Software Engineer, </i>Jul 2017-Present",
         "items": [
           {
-            "text": "Improved performance in a use-case by 400%"
+            "text": "<li> Improved performance in a use-case by 400%</li>"
           },
           {
-            "text": "Implemented a solution to isolate feature branch build from master caused by the use of version range"
+            "text": "<li> Implemented a solution to isolate feature branch build from master caused by the use of version range</li>"
           },
           {
-            "text": "Created an Intellij plugin to auto-update OSGi jar files in the deploy folder "
+            "text": "<li> Created an Intellij plugin to auto-update OSGi jar files in the deploy folder</li>"
           }
         ]
       },
@@ -24,10 +24,10 @@
         "title": "<b>DJavaFactory, </b><i>Senior Java Developer, </i>Apr 2016-Apr 2017",
         "items": [
           {
-            "text": "Came up with a solution to generate report criteria forms on the fly which helped us deliver the 150+ reports and their criteria forms on time"
+            "text": "<li> Came up with a solution to generate report criteria forms on the fly which helped us deliver the 150+ reports and their criteria forms on time</li>"
           },
           {
-            "text": "Helped other developers with their design and technical problems"
+            "text": "<li> Helped other developers with their design and technical problems</li>"
           }
         ]
       },
@@ -35,7 +35,7 @@
         "title": "<b>Self Employed, </b><i>N/A, </i>Mar 2015-Mar 2016",
         "items": [
           {
-            "text": "Consult and train a team of 8 developers with their Billing project"
+            "text": "<li> Consult and train a team of 8 developers with their Billing project</li>"
           }
         ]
       },
@@ -43,22 +43,22 @@
         "title": "<b>Infotech, </b><i>Senior Architect, </i>May 2011-Mar 2015",
         "items": [
           {
-            "text": "Implemented a multi-module framework to reduce implementation cost by 70%"
+            "text": "<li> Implemented a multi-module framework to reduce implementation cost by 70%</li>"
           },
           {
-            "text": "Designed and implemented a solution for final user custom querying"
+            "text": "<li> Designed and implemented a solution for final user custom querying</li>"
           },
           {
-            "text": "Designed and implemented a solution for embedding GUI pages in one another"
+            "text": "<li> Designed and implemented a solution for embedding GUI pages in one another</li>"
           },
           {
-            "text": "Designed and implemented a solution for entity-level Authorization"
+            "text": "<li> Designed and implemented a solution for entity-level Authorization</li>"
           },
           {
-            "text": "Designed and implemented a solution for End-User custom reports by Jasper"
+            "text": "<li> Designed and implemented a solution for End-User custom reports by Jasper</li>"
           },
           {
-            "text": "Implemented a model-based code generator (Xtext & Xpand)"
+            "text": "<li> Implemented a model-based code generator (Xtext &amp; Xpand)</li>"
           }
         ]
       },
@@ -66,13 +66,13 @@
         "title": "<b>ICT-CERT, </b><i>Senior Java Developer, </i>Feb 2010-May 2011, <i>Consultant and Architect, </i>Dec 2012-May 2015 (part-time)",
         "items": [
           {
-            "text": "Implemented a multi-module framework to reduce implementation cost by 30%"
+            "text": "<li> Implemented a multi-module framework to reduce implementation cost by 30%</li>"
           },
           {
-            "text": "Designed and implemented a solution for End-User custom reports by BIRT"
+            "text": "<li> Designed and implemented a solution for End-User custom reports by BIRT</li>"
           },
           {
-            "text": "Train a team of 5 developers"
+            "text": "<li> Train a team of 5 developers</li>"
           }
         ]
       },
@@ -80,7 +80,7 @@
         "title": "<b>DPco, </b><i>Junior Java Developer, </i>Sep 2006-Jul 2009 (part-time), ",
         "items": [
           {
-            "text": "Found a design defect which saved our company thousands of dollar"
+            "text": "<li> Found a design defect which saved our company thousands of dollar</li>"
           }
         ]
       }

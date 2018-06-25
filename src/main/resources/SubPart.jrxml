@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SubPart" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0027f1e1-207d-46ee-ad33-76c0e3fbf46a">
+	<parameter name="subpartItemResume" class="net.sf.jasperreports.engine.JasperReport"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="title" class="java.lang.String"/>
+	<field name="thisSubPart" class="ir.amv.snippets.resume.gen.model.ResumeSubpart">
+		<fieldDescription><![CDATA[_THIS]]></fieldDescription>
+	</field>
+	<field name="items" class="java.util.List"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="40" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="0" width="555" height="20" uuid="15f6fc93-7498-40b9-b454-53139a3e9b4a"/>
+				<textElement markup="styled"/>
+				<textFieldExpression><![CDATA[$F{title}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="0" y="20" width="555" height="20" uuid="006deeda-b377-4101-8c6b-8effad674c65">
+					<printWhenExpression><![CDATA[$F{items} != null]]></printWhenExpression>
+				</reportElement>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{thisSubPart}.getItems())]]></dataSourceExpression>
+				<subreportExpression><![CDATA[ir.amv.snippets.resume.gen.ResumeGeneratorApp.getItemSubReportDesign()]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>
