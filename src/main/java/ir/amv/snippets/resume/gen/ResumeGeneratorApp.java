@@ -26,11 +26,6 @@ import java.util.Scanner;
 public class ResumeGeneratorApp {
 
     public static void main(String[] args) throws JRException, IOException {
-        JasperDesign jasperDesign = loadReport("MyResume.jrxml");
-        JasperDesign subPart = loadReport("SubPart.jrxml");
-        JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
-        JasperReport subPartResume = JasperCompileManager.compileReport(subPart);
-
         ObjectMapper objectMapper = new ObjectMapper();
         List<ResumePart> parts = objectMapper.readValue(ResumeGeneratorApp.class.getResource("/resume.json"), new
                 TypeReference<List<ResumePart>>() {});
@@ -62,6 +57,11 @@ public class ResumeGeneratorApp {
             System.out.println(i + " = " + outputTypes[i]);
         }
         int outputIndex = scanner.nextInt();
+        JasperDesign jasperDesign = loadReport("MyResume.jrxml");
+        outputTypes[outputIndex].prepare(jasperDesign);
+        JasperDesign subPart = loadReport("SubPart.jrxml");
+        JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
+        JasperReport subPartResume = JasperCompileManager.compileReport(subPart);
         JRDataSource dataSource = new JRBeanCollectionDataSource(filtered);
         HashMap<String, Object> parameters = new HashMap<>();
         parameters.put("subpartResume", subPartResume);
