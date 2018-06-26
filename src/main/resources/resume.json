@@ -90,7 +90,7 @@
     "title": "Projects",
     "subparts": [
       {
-        "title": "<b>Power-Curve</b><i>[Banking]</i>",
+        "title": "<b>Power-Curve</b> <i>[Banking]</i>",
         "items": [
           {
             "text": "Power-Curve is an all-purpose software designed to help delivering different solutions for different organizations based on their need for every aspect of a credit-based business (such as Collections, Originations, Customer Management, etc.). The product contains a great number of tiny modules which run on OSGi and help delivery team design solutions for clients"
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "title": "<b>TMEX</b><i>[Insurance]</i>",
+        "title": "<b>TMEX</b> <i>[Insurance]</i>",
         "items": [
           {
             "text": "TMEX is the Tokyo Marine Insurance application which is used to automate the process for selling Insurance products to customers. Project mainly consists of two sub-projects, front-end office (more towards sales) and back-end office (more towards product administration). Our mission was to upgrade the very old version of application and add some new features to it"
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "title": "<b>Switcher</b><i>[Cryptocurrency]</i>",
+        "title": "<b>Switcher</b> <i>[Cryptocurrency]</i>",
         "items": [
           {
             "text": "Switcher is a web-app used for handling money transfer between 2 (and more) different blockchains. Each switcher connects two chains by having an account in each one of them. When someone wants to transfer money to another chain, they will just choose the target chain and account, and then a transfer will be made to the switcher account in their own chain (completely transparent to final user) the rest will be handled by Switcher app, meaning it will automatically make the required transfers to the intermediary switchers’ accounts so that the money is delivered to the destination account."
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "title": "<b>Prodash</b><i>[Banking – Monitoring systems]</i>",
+        "title": "<b>Prodash</b> <i>[Banking – Monitoring systems]</i>",
         "items": [
           {
             "text": "Prodash is used for monitoring CIMB devices including ATM, CDM, etc. and generating reports (Around 150 reports)."
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "title": "<b>TCT Billing</b><i>[Finance]</i>",
+        "title": "<b>TCT Billing</b> <i>[Finance]</i>",
         "items": [
           {
             "text": "TCT stands for Telecommunication Company of Tehran. The company is the main service provider for telephone devices in Tehran. In order to calculate the bill amount for each customer, they had to gather billing data from different systems owned by different companies. so the goal was to create an integrated system for central billing."
@@ -144,7 +144,7 @@
         ]
       },
       {
-        "title": "<b>Infotech Framework</b><i>[Insurance]</i>",
+        "title": "<b>Infotech Framework</b> <i>[Insurance]</i>",
         "items": [
           {
             "text": "TCT stands for Telecommunication Company of Tehran. The company is the main service provider for telephone devices in Tehran. In order to calculate the bill amount for each customer, they had to gather billing data from different systems owned by different companies. so the goal was to create an integrated system for central billing."
