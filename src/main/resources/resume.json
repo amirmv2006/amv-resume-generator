@@ -85,5 +85,140 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Projects",
+    "subparts": [
+      {
+        "title": "<b>Power-Curve</b><i>[Banking]</i>",
+        "items": [
+          {
+            "text": "Power-Curve is an all-purpose software designed to help delivering different solutions for different organizations based on their need for every aspect of a credit-based business (such as Collections, Originations, Customer Management, etc.). The product contains a great number of tiny modules which run on OSGi and help delivery team design solutions for clients"
+          },
+          {
+            "text": "<i>Felix, JPA, JQuery, XDocReport, Oracle/MSSQL, WebLogic, Linux, Docker/OpenShift</i>"
+          }
+        ]
+      },
+      {
+        "title": "<b>TMEX</b><i>[Insurance]</i>",
+        "items": [
+          {
+            "text": "TMEX is the Tokyo Marine Insurance application which is used to automate the process for selling Insurance products to customers. Project mainly consists of two sub-projects, front-end office (more towards sales) and back-end office (more towards product administration). Our mission was to upgrade the very old version of application and add some new features to it"
+          },
+          {
+            "text": "<i>EJB, JPA, JQuery, Bootstrap, Oracle, Jasper, WebLogic, Linux</i>"
+          }
+        ]
+      },
+      {
+        "title": "<b>Switcher</b><i>[Cryptocurrency]</i>",
+        "items": [
+          {
+            "text": "Switcher is a web-app used for handling money transfer between 2 (and more) different blockchains. Each switcher connects two chains by having an account in each one of them. When someone wants to transfer money to another chain, they will just choose the target chain and account, and then a transfer will be made to the switcher account in their own chain (completely transparent to final user) the rest will be handled by Switcher app, meaning it will automatically make the required transfers to the intermediary switchers’ accounts so that the money is delivered to the destination account."
+          },
+          {
+            "text": "<i>JHipster Technology Stack (https://jhipster.github.io/), Quartz scheduler, Jenkins, Docker</i>"
+          }
+        ]
+      },
+      {
+        "title": "<b>Prodash</b><i>[Banking – Monitoring systems]</i>",
+        "items": [
+          {
+            "text": "Prodash is used for monitoring CIMB devices including ATM, CDM, etc. and generating reports (Around 150 reports)."
+          },{
+            "text": "<i>Tapestry, Hibernate, Jasper Report, Quartz, Bootstrap, MS SQL Server, KoolChart</i>"
+          }
+        ]
+      },
+      {
+        "title": "<b>TCT Billing</b><i>[Finance]</i>",
+        "items": [
+          {
+            "text": "TCT stands for Telecommunication Company of Tehran. The company is the main service provider for telephone devices in Tehran. In order to calculate the bill amount for each customer, they had to gather billing data from different systems owned by different companies. so the goal was to create an integrated system for central billing."
+          },
+          {
+            "text": "<i>Spring, Spring Security, ExtJS, Hibernate, Hibernate Validator, Jasper, Dozer, CXF</i>"
+          }
+        ]
+      },
+      {
+        "title": "<b>Infotech Framework</b><i>[Insurance]</i>",
+        "items": [
+          {
+            "text": "TCT stands for Telecommunication Company of Tehran. The company is the main service provider for telephone devices in Tehran. In order to calculate the bill amount for each customer, they had to gather billing data from different systems owned by different companies. so the goal was to create an integrated system for central billing."
+          },{
+            "text": "<i>Spring, Spring Security, ExtJS, Hibernate, Hibernate Validator, Jasper, Dozer, CXF</i>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "subparts": [
+      {
+        "title": "<b>AMIRKABIR UNIVERSITY OF TECHNOLOGY (TEHRAN POLYTECHNIC)</b>, Tehran, Iran, 2005-2011",
+        "items": [
+          {
+            "text": "<i>Bachelor of Science</i>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "subparts": [
+      {
+        "title": "<b>IELTS (2013 – 2015)</b>",
+        "items": [
+          {
+            "text": "Listening: 7.5, Reading: 8.5, Writing: 7.5, Speaking: 6.5"
+          }
+        ]
+      },
+      {
+        "title": "<b>Open-source Projects</b>",
+        "items": [
+          {
+            "text": "Vaseline (https://github.com/amirmv2006/Vaseline): An enterprise modular framework (similar to what I’ve done on Infotech and ICT-CERT) providing generic implementation of CRUD operations and some common modules such as authentication, authorization, reporting, file management, etc."
+          }
+        ]
+      },
+      {
+        "title": "<b>Technical Skills</b>",
+        "items": [
+          {
+            "text": "Expert in: Spring (framework, boot, data, security), Jersey, CXF, JPA, Hibernate, Jasper, BIRT, OSGi (Felix, Equinox), Quartz, GWT \r\n Experienced (> 2 years) in: EJB, JQuery, Bootstrap, Docker, OpenShift, Linux, BPMN 2 (Activiti), Xtext, Xtend, Xpand, JetBrains MPS"
+          }
+        ]
+      },
+      {
+        "title": "<b>Databases</b>",
+        "items": [
+          {
+            "text": "Oracle, MSSQL, PostgreSQL"
+          }
+        ]
+      },
+      {
+        "title": "<b>Enterprise Application Servers</b>",
+        "items": [
+          {
+            "text": "WebLogic, JBoss"
+          }
+        ]
+      },
+      {
+        "title": "<b>Development Tools</b>",
+        "items": [
+          {
+            "text": "Docker, OpenShift, AWS, Jenkins, Artifactory, Atlassian package (Jira, Confluence, Bitbucket, …)"
+          }
+        ]
+      }
+    ]
   }
 ]
