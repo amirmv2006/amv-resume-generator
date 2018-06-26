@@ -37,7 +37,7 @@ public enum OutputType {
     }
 
     public void export(final JasperPrint jasperPrint, final String destFileName) throws JRException, IOException {
-        String destFileNameAndExt = destFileName + "." + fileExtension();
+        File destFileNameAndExt = File.createTempFile(destFileName, fileExtension());
         exporter.setExporterInput(new SimpleExporterInput(jasperPrint));
         if (this.equals(HTML)) {
             exporter.setExporterOutput(new SimpleHtmlExporterOutput(destFileNameAndExt));
@@ -45,7 +45,7 @@ public enum OutputType {
             exporter.setExporterOutput(new SimpleOutputStreamExporterOutput(destFileNameAndExt));
         }
         exporter.exportReport();
-        Desktop.getDesktop().open(new File(destFileNameAndExt));
+        Desktop.getDesktop().open(destFileNameAndExt);
     }
 
     public void prepare(final JasperDesign jasperDesign) {

@@ -66,7 +66,7 @@ public class ResumeGeneratorApp {
         HashMap<String, Object> parameters = new HashMap<>();
         parameters.put("subpartResume", subPartResume);
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
-        String destFileName = "target/resume";
+        String destFileName = "resume";
         outputTypes[outputIndex].export(jasperPrint, destFileName);
     }
 
