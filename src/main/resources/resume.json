@@ -152,6 +152,16 @@
             "text": "<i>Spring, Spring Security, ExtJS, Hibernate, Hibernate Validator, Jasper, Dozer, CXF</i>"
           }
         ]
+      },
+      {
+        "title": "<b>ISMN</b> <i>[Network Management System]</i>",
+        "items": [
+          {
+            "text": "ISMN stands for Iran Switch Management Network. The project goal was to deliver a client-server application for managing Telecommunication Switches across the country (Iran). The project was divided to multiple modules including security module – which I was working on – and had 4 sub-modules: Authentication, Authorization, Administration and Auditing."
+          },{
+            "text": "<i>Swing, RMI, Hibernate, WebNMS Framework, Using Linux</i>"
+          }
+        ]
       }
     ]
   },
