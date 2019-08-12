@@ -2,6 +2,7 @@ package ir.amv.snippets.resume.gen;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import ir.amv.snippets.resume.gen.model.ResumePart;
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JRException;
@@ -26,8 +27,8 @@ import java.util.Scanner;
 public class ResumeGeneratorApp {
 
     public static void main(String[] args) throws JRException, IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        List<ResumePart> parts = objectMapper.readValue(ResumeGeneratorApp.class.getResource("/resume.json"), new
+        ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
+        List<ResumePart> parts = objectMapper.readValue(ResumeGeneratorApp.class.getResource("/resume.yaml"), new
                 TypeReference<List<ResumePart>>() {});
 
         System.out.println("Welcome to AMV Resume Generator");

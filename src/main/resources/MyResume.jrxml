@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MyResume" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e00ffa64-7a10-426b-a2f2-07c019fe24b9">
-	<style name="DefaultFont" fontName="SansSerif"/>
+	<style name="DefaultFont" fontName="Garamond"/>
 	<subDataset name="ResumeParts" uuid="6cd10d15-0b86-4880-9c2c-e1164f1c4853">
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 		<queryString>
@@ -22,23 +22,34 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="102" splitType="Stretch">
+		<band height="81" splitType="Stretch">
 			<staticText>
 				<reportElement x="0" y="0" width="555" height="30" uuid="cb23d344-3285-4ceb-8c75-e29b342d86af"/>
 				<textElement textAlignment="Center">
-					<font fontName="Times New Roman" size="16" isBold="true"/>
+					<font fontName="Garamond" size="16" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Amir M. Vosough]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="40" width="554" height="62" uuid="265210ef-04ee-4d15-8264-0e47182a0ecd"/>
+				<reportElement x="0" y="40" width="277" height="30" uuid="265210ef-04ee-4d15-8264-0e47182a0ecd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
 				<textElement>
-					<font fontName="Times New Roman"/>
+					<font fontName="Garamond"/>
 				</textElement>
-				<text><![CDATA[D-32-9 Vertex Cybersquare
-Cyberjaya, Malaysia 63000
-amirmv2006@gmail.com
-(+60) 1112392523]]></text>
+				<text><![CDATA[https://github.com/amirmv2006
+(+31) 617570047]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="40" width="274" height="30" uuid="1ce1043d-82c4-4f9c-85d3-e3aeec867628">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Garamond"/>
+				</textElement>
+				<text><![CDATA[amirmv2006@gmail.com
+Delft, Netherlands]]></text>
 			</staticText>
 		</band>
 	</title>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+	<fontFamily name="Garamond">
+		<normal><![CDATA[src/main/resources/fonts/Garamond/Garamond.ttf]]></normal>
+		<bold><![CDATA[src/main/resources/fonts/Garamond/Garamond Bold font.ttf]]></bold>
+		<italic><![CDATA[src/main/resources/fonts/Garamond/GARAIT.TTF]]></italic>
+		<exportFonts/>
+	</fontFamily>
+</fontFamilies>

@@ -1,0 +1,153 @@
+- title: Summary
+  text: A technical architect working on Enterprise Java Projects since I was 19 (for 13 years). Fast learner,
+    creative problem solver and enthusiastic computer admirer! I have an eye for details in computer and
+    when I see an interesting software “feature”, I usually challenge myself by thinking about how I could
+    deliver such feature. Self-motivated and good at reading other developers’ code. I enjoy technical
+    discussions, knowledge sharing and also believe that one can always learn from ANYONE.
+- title: Experience
+  subparts:
+    - title: "<b>Experian, </b><b><i>Senior Software Engineer, </i></b><i>Cyberjaya – Malaysia</i>, Jul 2017-Jan 2019"
+      items:
+        - text: "<li> Improved export performance, by 400%, by exporting each thread’s data into temp files and
+                      then merging the temp files into the main file</li>"
+        - text: "<li> Solved topic branch isolation from master problem, caused by using version range, by creating
+                      a small proxy web-app which will read data from Git/Jenkins/Artifactory to find the correct
+                      version for a given topic branch</li>"
+        - text: "<li> Eased my life by creating an Intellij plugin to auto-update OSGi jar files in the deploy folder</li>"
+    - title: "<b>Infotech, </b><b><i>Technical Architect, </i></b><i>Tehran – Iran</i>, May 2011-Mar 2015"
+      items:
+        - text: "<li> Was chosen and assigned to Company’s Framework special team immediately after I joined</li>"
+        - text: "<li> Reduce implementation cost by 70% by implementing a multi-module framework and a modelbased code generator (Xtext and Xpand)</li>"
+        - text: "<li> Improved functionality by implementing a solution for final user custom query search and
+                      reports</li>"
+        - text: "<li> Improved Developer experience by implementing a solution for embedding GUI pages in one
+                      another</li>"
+        - text: "<li> Improved user functionality by implementing a solution for entity-level Authorization</li>"
+        - text: "<li> Knowledge sharing about the framework with a team of 10 developers</li>"
+    - title: "<b>DJavaFactory, </b><b><i>Senior Java Developer, </i></b><i>Kuala Lumpur – Malaysia</i>, Apr 2016-Apr 2017"
+      items:
+        - text: "<li> Making it possible to finish 250+ reports in one month by generating report criteria forms on the
+                      fly based on JSON metadata for each report</li>"
+        - text: "<li> Helped other developers with their design and technical problems</li>"
+        - text: "<li> Managed a team of 3 developers for one month</li>"
+    - title: "<b>TBA, </b><b><i> Senior Software Engineer, </i></b><i>Delft – Netherlands</i>, Jan 2019-Present"
+      items:
+        - text: "<li> Improved Layout load performance by 400% by bulk loading data</li>"
+        - text: "<li> Modernized the software by filling the gap between company’s custom framework and
+                      modern frameworks</li>"
+        - text: "<li> Knowledge sharing about Interface Programming, Dependency Injection, Unit Tests, etc.</li>"
+    - title: "<b>ICT-CERT, </b><b><i>Senior Java Developer, </i></b><i>Tehran – Iran</i>, Feb 2010-May 2011
+                               <b><i>Consultant and Architect, </i></b><i>Tehran – Iran</i>, Dec 2012-May 2015 (part-time)"
+      items:
+        - text: "<li> Implemented a multi-module framework to reduce implementation cost by 30%</li>"
+        - text: "<li> Saved us weeks of coding by finding a third-party library which would help us deliver a
+                      functionality as an initiative task</li>"
+        - text: "<li> Improved User experience by implementing a solution for End-User custom reports by BIRT</li>"
+        - text: "<li> Train a team of 5 developers</li>"
+    - title: "<b>Self Employed, </b><b><i>N/A, </i></b><i>Tehran – Iran</i>, Mar 2015-Mar 2016"
+      items:
+        - text: "<li> Consult and train a team of 8 developers with their Billing project</li>"
+    - title: "<b>DPco, </b><b><i>Junior Java Developer, </i></b><i>Tehran – Iran</i>, Sep 2006-Jul 2009 (part-time), "
+      items:
+        - text: "<li> Found a design defect which saved our company thousands of dollars</li>"
+- title: Projects
+  subparts:
+    - title: "<b>Power-Curve</b> <i>[Banking]</i>"
+      items:
+        - text: Power-Curve is an all-purpose software designed to help delivering different
+            solutions for different organizations based on their need for every aspect
+            of a credit-based business (such as Collections, Originations, Customer Management,
+            etc.). The product contains a great number of tiny modules which run on OSGi
+            and help delivery team design solutions for clients
+        - text: "<i>Felix, JPA, JQuery, XDocReport, Oracle/MSSQL, WebLogic, Linux, Docker/OpenShift</i>"
+    - title: "<b>Infotech Framework</b> <i>[Insurance]</i>"
+      items:
+        - text: TCT stands for Telecommunication Company of Tehran. The company is the
+            main service provider for telephone devices in Tehran. In order to calculate
+            the bill amount for each customer, they had to gather billing data from different
+            systems owned by different companies. so the goal was to create an integrated
+            system for central billing.
+        - text: "<i>Spring, Spring Security, ExtJS, Hibernate, Hibernate Validator, Jasper,
+        Dozer, CXF</i>"
+    - title: "<b>TMEX</b> <i>[Insurance]</i>"
+      items:
+        - text: TMEX is the Tokyo Marine Insurance application which is used to automate
+            the process for selling Insurance products to customers. Project mainly consists
+            of two sub-projects, front-end office (more towards sales) and back-end office
+            (more towards product administration). Our mission was to upgrade the very
+            old version of application and add some new features to it
+        - text: "<i>EJB, JPA, JQuery, Bootstrap, Oracle, Jasper, WebLogic, Linux</i>"
+    - title: "<b>Switcher</b> <i>[Cryptocurrency]</i>"
+      items:
+        - text: Switcher is a web-app used for handling money transfer between 2 (and
+            more) different blockchains. Each switcher connects two chains by having an
+            account in each one of them. When someone wants to transfer money to another
+            chain, they will just choose the target chain and account, and then a transfer
+            will be made to the switcher account in their own chain (completely transparent
+            to final user) the rest will be handled by Switcher app, meaning it will automatically
+            make the required transfers to the intermediary switchers’ accounts so that
+            the money is delivered to the destination account.
+        - text: "<i>JHipster Technology Stack (https://jhipster.github.io/), Quartz scheduler,
+        Jenkins, Docker</i>"
+    - title: "<b>Prodash</b> <i>[Banking – Monitoring systems]</i>"
+      items:
+        - text: Prodash is used for monitoring CIMB devices including ATM, CDM, etc. and
+            generating reports (Around 150 reports).
+        - text: "<i>Tapestry, Hibernate, Jasper Report, Quartz, Bootstrap, MS SQL Server,
+        KoolChart</i>"
+    - title: "<b>TEAMS</b> <i>[Logistics]</i>"
+      items:
+        - text: TEAMS is a modular software which helps to automate the processes in a terminal
+            by routing the equipments, controling and monitoring machines. Worked on TCM module
+            which was a newly introduced module in the system in charge of Terminal Configurations
+            mainly related to the layout of the terminal.
+        - text: "<i>Hibernate, Hibernate Spatial</i>"
+    - title: "<b>TCT Billing</b> <i>[Finance]</i>"
+      items:
+        - text: TCT stands for Telecommunication Company of Tehran. The company is the
+            main service provider for telephone devices in Tehran. In order to calculate
+            the bill amount for each customer, they had to gather billing data from different
+            systems owned by different companies. so the goal was to create an integrated
+            system for central billing.
+        - text: "<i>Spring, Spring Security, ExtJS, Hibernate, Hibernate Validator, Jasper,
+        Dozer, CXF</i>"
+    - title: "<b>ISMN</b> <i>[Network Management System]</i>"
+      items:
+        - text: 'ISMN stands for Iran Switch Management Network. The project goal was
+        to deliver a client-server application for managing Telecommunication Switches
+        across the country (Iran). The project was divided to multiple modules including
+        security module – which I was working on – and had 4 sub-modules: Authentication,
+        Authorization, Administration and Auditing.'
+        - text: "<i>Swing, RMI, Hibernate, WebNMS Framework, Using Linux</i>"
+- title: Education
+  subparts:
+    - title: "<b>AMIRKABIR UNIVERSITY OF TECHNOLOGY (TEHRAN POLYTECHNIC)</b>, Tehran,
+      Iran, 2005-2011"
+      items:
+        - text: "<i>Bachelor of Science in Information Technology</i>"
+- title: Skills
+  subparts:
+    - title: "<b>IELTS (2013 – 2015)</b>"
+      items:
+        - text: 'Listening: 7.5, Reading: 8.5, Writing: 7.5, Speaking: 6.5'
+    - title: "<b>Open-source Projects</b>"
+      items:
+        - text: 'Vaseline: An enterprise modular framework providing generic implementation of CRUD
+                 operations and some common modules such as authentication, authorization, reporting, file
+                 management, etc.'
+    - title: "<b>Technical Skills</b>"
+      items:
+        - text: "Expert in: Spring (framework, boot, data, security), Jersey, CXF, JPA, Hibernate, Jasper, BIRT,
+                 OSGi (Felix, Equinox), Quartz, GWT \r\n
+                  Experienced (> 2 years) in: EJB, JQuery, Bootstrap, Docker, Linux, BPMN 2 (Activiti), Xtext,
+                  Xtend, Xpand, JetBrains MPS"
+    - title: "<b>Databases</b>"
+      items:
+        - text: Oracle, MSSQL, PostgreSQL
+    - title: "<b>Enterprise Application Servers</b>"
+      items:
+        - text: WebLogic, JBoss
+    - title: "<b>Development Tools</b>"
+      items:
+        - text: "Docker, Kubernetes, OpenShift, AWS, Jenkins, Artifactory, Atlassian package (Jira,
+                 Confluence, Bitbucket, …)"
