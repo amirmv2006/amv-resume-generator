@@ -33,7 +33,7 @@ public enum OutputType {
     }
 
     public String fileExtension() {
-        return this.name().toLowerCase();
+        return "." + this.name().toLowerCase();
     }
 
     public void export(final JasperPrint jasperPrint, final String destFileName) throws JRException, IOException {
